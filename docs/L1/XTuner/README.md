@@ -43,6 +43,8 @@ cd /root/finetune/xtuner
 pip install  -e '.[all]'
 pip install torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 --index-url https://download.pytorch.org/whl/cu121
 pip install transformers==4.39.0
+
+pip install peft==0.13.2
 ```
 >`-e` 表示在可编辑模式下安装项目，因此对代码所做的任何本地修改都会生效
 
